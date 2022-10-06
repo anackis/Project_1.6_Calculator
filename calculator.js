@@ -32,7 +32,7 @@ app.post("/bmicalculator", function(req, res) {
 
 	var bmi = weight / (height * height);
 
-	res.send("Your BMI is " + bmi);
+	res .send("Your BMI is " + bmi);
 
 });
 
