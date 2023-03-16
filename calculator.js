@@ -1,5 +1,7 @@
 //jshint esversion:6
 
+// nodemon calculator.js (to start project!)
+
 const express = require("express");
 const bodyParser = require("body-parser");
 
@@ -18,7 +20,7 @@ app.post("/", function(req, res) {
 	var num1 = Number(req.body.num1);
 	var num2 = Number(req.body.num2);
 	var result = num1 + num2;
-	res.send("TThe result of the calculation is: " + result);
+	res.send("The result of the calculation is: " + result);
 });
 
 
